@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form-Placeholder for MooTools</title>
+	<link rel="stylesheet" media="all" type="text/css" href="style.css" />
+	
+	<style type="text/css">
+	input {
+		padding: 0.1em;
+		margin: 0.5em;
+		
+		outline: 0;
+		overflow-y: hidden;
+		resize: none;
+		
+		font-size: 1.5em;
+		
+		width: 20em;
+		border: 1px solid #999;
+		-webkit-border-radius: 4px;
+		border-radius: 4px;
+		
+		-moz-transition-duration: 250ms;
+		-webkit-transition-duration: 250ms;
+		-o-transition-duration: 250ms;
+		transition-duration: 250ms;
+		-webkit-transition-property: -webkit-box-shadow;
+		-moz-transition-property: -moz-box-shadow;
+		-o-transition-property: -o-box-shadow;
+		transition-property: box-shadow;
+	}
+	
+	input:focus {
+		-moz-box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px 0;
+		-o-box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px 0;
+		box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px 0;
+	}
+	
+	label {
+		font-weight: bold;
+	}
+	
+	label, textarea {
+		display: block;
+	}
+	</style>
+	
+	<script type="text/javascript" src="mootools-core.js"></script>
+	<script type="text/javascript" src="mootools-class-extras.js"></script>
+	
+	<script type="text/javascript" src="../Source/Form.Placeholder.js"></script>
+	
+	<script type="text/javascript">
+		window.addEvent('domready', function(){
+			// Check if the browser does not support Placeholder
+			if (Form.Placeholder)
+				new Form.Placeholder('myInput');
+		});
+	</script>
+</head>
+<body>
+<div>
+	<label>Focus and blur the input element to see the placeholder appear and disappear.</label>
+	<input id="myInput" placeholder="Username"></input>
+</div>
+</body>
+</html>

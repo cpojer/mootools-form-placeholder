@@ -21,9 +21,6 @@ provides: Form.Placeholder
 if (!this.Form) this.Form = {};
 
 var supportsPlaceholder = ('placeholder' in document.createElement('input'));
-// Safari4 does not properly support placeholders. Forcing to use the fallback.
-if (Browser.safari && Browser.version <= 4) supportsPlaceholder = false;
-
 if (!('supportsPlaceholder' in this) && this.supportsPlaceholder !== false && supportsPlaceholder) return;
 
 var wrapSet = function(self, set){

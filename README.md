@@ -32,8 +32,6 @@ To check if the browser supports placeholders use
 
 	if (Form.Placeholder) // This browser supports placeholders
 
-Note that Form.Placeholder is forced in previous versions of Safari (<= 4). Safari 4 appears to support the placeholder property, but it contains bugs.
-
 Options
 -------
 

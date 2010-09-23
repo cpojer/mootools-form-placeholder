@@ -43,7 +43,7 @@ var wrapGet = function(get, self){
 	};
 };
 
-var Placeholder = this.Form.Placeholder = new Class({
+this.Form.Placeholder = new Class({
 
 	Implements: [Class.Singleton, Class.Binds, Options],
 

@@ -26,7 +26,7 @@ How To Use
 
 Create a new instance of Form.Placeholder for your TextArea-Element
 
-	new Form.Placeholder('myInput');
+	new Form.Placeholder('myInput', options);
 
 To check if the browser supports placeholders use
 
@@ -35,8 +35,7 @@ To check if the browser supports placeholders use
 Options
 -------
 
-* defaultColor (number, defaults to *#777*): The color to be used for the placeholder text
-* defaultValue (number, defaults to *null*): The default value to be used if no placeholder property was provided
+* value (number, defaults to *#777*): The color to be used for the placeholder text
 
 Tips
 --------

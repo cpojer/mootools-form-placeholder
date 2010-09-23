@@ -48,8 +48,7 @@ this.Form.Placeholder = new Class({
 	Implements: [Class.Singleton, Class.Binds, Options],
 
 	options: {
-		defaultColor: '#777',
-		defaultValue: null
+		color: '#777'
 	},
 
 	initialize: function(element, options){
@@ -62,7 +61,7 @@ this.Form.Placeholder = new Class({
 	setup: function(){
 		var element = this.element;
 		
-		this.defaultValue = this.options.defaultValue || element.get('placeholder') || element.value;
+		this.defaultValue = element.get('placeholder') || element.value;
 		this.color = element.getStyle('color');
 
 		element.erase('placeholder');
@@ -101,7 +100,7 @@ this.Form.Placeholder = new Class({
 	},
 
 	reset: function(){
-		this.element.setStyle('color', this.options.defaultColor).value = this.defaultValue;
+		this.element.setStyle('color', this.options.color).value = this.defaultValue;
 
 		return this;
 	},

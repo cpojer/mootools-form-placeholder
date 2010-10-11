@@ -9,7 +9,7 @@ authors: Christoph Pojer (@cpojer)
 
 license: MIT-style license.
 
-requires: [Core/Class.Extras, Core/Element, Core/Element.Style, Class-Extras/Class.Binds, Class-Extras/Class.Singleton]
+requires: [Core/Class.Extras, Core/Element, Core/Element.Event, Core/Element.Style, Class-Extras/Class.Binds, Class-Extras/Class.Singleton]
 
 provides: Form.Placeholder
 

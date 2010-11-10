@@ -23,7 +23,7 @@ if (!this.Form) this.Form = {};
 var supportsPlaceholder = ('placeholder' in document.createElement('input'));
 if (!('supportsPlaceholder' in this) && this.supportsPlaceholder !== false && supportsPlaceholder) return;
 
-var wrapSet = function(self, set){
+var wrapSet = function(set, self){
 	return function(key, value){
 		if (key == 'value' && !value){
 			self.reset();

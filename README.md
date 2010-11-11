@@ -42,8 +42,14 @@ Tips
 
 Use the following tips to get most out of Form.Placeholder.
 
-Style the color of the placeholder via CSS in Webkit based browsers
-
+Style the color of the placeholder via CSS
+	
+	/* Firefox */
+	input:-moz-placeholder {
+		color: #000;
+	}
+	
+	/* Webkit */
 	input::-webkit-input-placeholder {
 		color: #000;
 	}

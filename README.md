@@ -3,18 +3,23 @@ Form Placeholder
 
 Provides a fallback for the placeholder property on input elements for older browsers. Does not actually do anything in modern browsers.
 
+This Plugin is part of MooTools [PowerTools!](http://cpojer.net/PowerTools).
+
+* [Build PowerTools!](http://cpojer.net/PowerTools)
+* [Fork PowerTools!](https://github.com/cpojer/PowerTools)
+
 Build
 -----
 
 Build via [Packager](http://github.com/kamicane/packager), requires [MooTools Core](http://github.com/mootools/mootools-core) and [MooTools Class-Extras](http://github.com/cpojer/mootools-class-extras) to be registered to Packager already
 
 
-	./packager register /path/to/form-placeholder
-	./packager build Form-Placeholder/* > form-placeholder.js
+	packager register /path/to/form-placeholder
+	packager build Form-Placeholder/* > form-placeholder.js
 
 To build this plugin without external dependencies use
 
-	./packager build Form-Placeholder/* +use-only Form-Placeholder > form-placeholder.js
+	packager build Form-Placeholder/* +use-only Form-Placeholder > form-placeholder.js
 
 Demo
 ----

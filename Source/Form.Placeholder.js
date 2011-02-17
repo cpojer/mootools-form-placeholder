@@ -120,4 +120,4 @@ this.Form.Placeholder = new Class({
 
 });
 
-})();
+}).call(this);

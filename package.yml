@@ -3,6 +3,7 @@ name: "Form-Placeholder"
 exports: "form-placeholder.js"
 
 web: "[cpojer.net](http://cpojer.net)"
+demo: http://cpojer.net/MooTools/form-placeholder/Demos/
 
 description: "Provides a fallback for the placeholder property on input elements for older browsers."
 
@@ -12,6 +13,8 @@ copyright: "&copy; [Christoph Pojer](http://cpojer.net/)"
 
 author: "cpojer"
 authors: "[Christoph Pojer](http://cpojer.net)"
+category: Forms
+tags: [input, placeholder, html5]
 
 sources:
     - "Source/Form.Placeholder.js"

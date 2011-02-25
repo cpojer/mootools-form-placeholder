@@ -3,6 +3,8 @@ Form Placeholder
 
 Provides a fallback for the placeholder property on input elements for older browsers. Does not actually do anything in modern browsers.
 
+![Screenshot](http://cpojer.net/Logo/form-placeholder.png)
+
 This Plugin is part of MooTools [PowerTools!](http://cpojer.net/PowerTools).
 
 * [Build PowerTools!](http://cpojer.net/PowerTools)
